@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_switch/flutter_switch.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/shipping_provider.dart';
-import 'package:sixvalley_vendor_app/provider/splash_provider.dart';
-import 'package:sixvalley_vendor_app/provider/theme_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_dialog.dart';
-import 'package:sixvalley_vendor_app/view/screens/bank_info/bank_info_view.dart';
-import 'package:sixvalley_vendor_app/view/screens/menu/widget/sign_out_confirmation_dialog.dart';
-import 'package:sixvalley_vendor_app/view/screens/settings/order_wise_shipping_list_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/settings/setting_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/shipping/category_wise_shipping.dart';
-import 'package:sixvalley_vendor_app/view/screens/shipping/widget/product_wise_shipping.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/shipping_provider.dart';
+import 'package:wave_mall_vendor/provider/splash_provider.dart';
+import 'package:wave_mall_vendor/provider/theme_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/custom_dialog.dart';
+import 'package:wave_mall_vendor/view/screens/bank_info/bank_info_view.dart';
+import 'package:wave_mall_vendor/view/screens/menu/widget/sign_out_confirmation_dialog.dart';
+import 'package:wave_mall_vendor/view/screens/settings/order_wise_shipping_list_screen.dart';
+import 'package:wave_mall_vendor/view/screens/settings/setting_screen.dart';
+import 'package:wave_mall_vendor/view/screens/shipping/category_wise_shipping.dart';
+import 'package:wave_mall_vendor/view/screens/shipping/widget/product_wise_shipping.dart';
 
 class ThemeChanger extends StatelessWidget {
   const ThemeChanger({Key? key}) : super(key: key);

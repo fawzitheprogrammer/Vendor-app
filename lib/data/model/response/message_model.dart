@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/data/model/response/chat_model.dart';
+import 'package:wave_mall_vendor/data/model/response/chat_model.dart';
 
 class MessageModel {
   int? totalSize;

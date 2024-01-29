@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/data/model/response/order_model.dart';
+import 'package:wave_mall_vendor/data/model/response/order_model.dart';
 
 class DeliveryManOrderHistory {
   int? totalSize;

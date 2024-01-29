@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:sixvalley_vendor_app/data/model/body/message_body.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/chat_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/message_model.dart';
-import 'package:sixvalley_vendor_app/data/repository/chat_repo.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:wave_mall_vendor/data/model/body/message_body.dart';
+import 'package:wave_mall_vendor/data/model/response/base/api_response.dart';
+import 'package:wave_mall_vendor/data/model/response/chat_model.dart';
+import 'package:wave_mall_vendor/data/model/response/message_model.dart';
+import 'package:wave_mall_vendor/data/repository/chat_repo.dart';
+import 'package:wave_mall_vendor/helper/api_checker.dart';
 import 'dart:async';
 import 'package:http/http.dart' as http;
 

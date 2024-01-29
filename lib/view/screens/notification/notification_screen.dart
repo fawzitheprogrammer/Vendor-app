@@ -1,19 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/profile_provider.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_button.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_loader.dart';
-import 'package:sixvalley_vendor_app/view/base/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/view/base/paginated_list_view.dart';
-import 'package:sixvalley_vendor_app/view/screens/notification/model/notification_model.dart';
+import 'package:wave_mall_vendor/helper/date_converter.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/profile_provider.dart';
+import 'package:wave_mall_vendor/utill/app_constants.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/base/custom_button.dart';
+import 'package:wave_mall_vendor/view/base/custom_loader.dart';
+import 'package:wave_mall_vendor/view/base/no_data_screen.dart';
+import 'package:wave_mall_vendor/view/base/paginated_list_view.dart';
+import 'package:wave_mall_vendor/view/screens/notification/model/notification_model.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class NotificationScreen extends StatefulWidget {

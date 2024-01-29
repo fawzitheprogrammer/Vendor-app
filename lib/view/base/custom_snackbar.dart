@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
 
 void showCustomSnackBar(String? message, BuildContext? context, {bool isError = true, bool isToaster = false}) {
     Fluttertoast.showToast(

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/config_model.dart';
-import 'package:sixvalley_vendor_app/data/repository/splash_repo.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:wave_mall_vendor/data/model/response/base/api_response.dart';
+import 'package:wave_mall_vendor/data/model/response/config_model.dart';
+import 'package:wave_mall_vendor/data/repository/splash_repo.dart';
+import 'package:wave_mall_vendor/helper/api_checker.dart';
 
 class SplashProvider extends ChangeNotifier {
   final SplashRepo? splashRepo;

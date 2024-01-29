@@ -1,19 +1,19 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/error_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/category_wise_shipping_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/shipping_model.dart';
-import 'package:sixvalley_vendor_app/data/repository/shipping_repo.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/provider/splash_provider.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
-import 'package:sixvalley_vendor_app/view/screens/settings/order_wise_shipping_list_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/shipping/category_wise_shipping.dart';
-import 'package:sixvalley_vendor_app/view/screens/shipping/widget/product_wise_shipping.dart';
+import 'package:wave_mall_vendor/data/model/response/base/api_response.dart';
+import 'package:wave_mall_vendor/data/model/response/base/error_response.dart';
+import 'package:wave_mall_vendor/data/model/response/category_wise_shipping_model.dart';
+import 'package:wave_mall_vendor/data/model/response/shipping_model.dart';
+import 'package:wave_mall_vendor/data/repository/shipping_repo.dart';
+import 'package:wave_mall_vendor/helper/api_checker.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/main.dart';
+import 'package:wave_mall_vendor/provider/splash_provider.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/view/screens/settings/order_wise_shipping_list_screen.dart';
+import 'package:wave_mall_vendor/view/screens/shipping/category_wise_shipping.dart';
+import 'package:wave_mall_vendor/view/screens/shipping/widget/product_wise_shipping.dart';
 import 'auth_provider.dart';
 
 class ShippingProvider extends ChangeNotifier {

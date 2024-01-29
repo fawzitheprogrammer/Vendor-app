@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/repository/ratting_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/cart_provider.dart';
-import 'package:sixvalley_vendor_app/provider/product_provider.dart';
-import 'package:sixvalley_vendor_app/provider/product_review_provider.dart';
-import 'package:sixvalley_vendor_app/provider/profile_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_search_field.dart';
-import 'package:sixvalley_vendor_app/view/base/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/order/order_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/review/widget/review_filter_bottom_sheet.dart';
-import 'package:sixvalley_vendor_app/view/screens/review/widget/review_full_view_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/review/widget/review_widget.dart';
+import 'package:wave_mall_vendor/data/repository/ratting_model.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/cart_provider.dart';
+import 'package:wave_mall_vendor/provider/product_provider.dart';
+import 'package:wave_mall_vendor/provider/product_review_provider.dart';
+import 'package:wave_mall_vendor/provider/profile_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/base/custom_search_field.dart';
+import 'package:wave_mall_vendor/view/base/no_data_screen.dart';
+import 'package:wave_mall_vendor/view/screens/order/order_screen.dart';
+import 'package:wave_mall_vendor/view/screens/review/widget/review_filter_bottom_sheet.dart';
+import 'package:wave_mall_vendor/view/screens/review/widget/review_full_view_screen.dart';
+import 'package:wave_mall_vendor/view/screens/review/widget/review_widget.dart';
 
 
 

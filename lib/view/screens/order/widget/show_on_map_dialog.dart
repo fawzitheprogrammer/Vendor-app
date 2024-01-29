@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
 
 class ShowOnMapDialog extends StatelessWidget {
   const ShowOnMapDialog({Key? key}) : super(key: key);

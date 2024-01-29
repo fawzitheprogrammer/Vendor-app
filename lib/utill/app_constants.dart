@@ -1,5 +1,5 @@
-import 'package:sixvalley_vendor_app/data/model/response/language_model.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
+import 'package:wave_mall_vendor/data/model/response/language_model.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
 
 class AppConstants {
   static const String appName = 'Wave Mall Vendor App';

@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/data/model/response/top_delivery_man.dart';
+import 'package:wave_mall_vendor/data/model/response/top_delivery_man.dart';
 
 
 class OrderModel {

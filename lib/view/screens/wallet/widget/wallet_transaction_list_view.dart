@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/provider/transaction_provider.dart';
-import 'package:sixvalley_vendor_app/view/screens/transaction/widget/transaction_widget.dart';
+import 'package:wave_mall_vendor/provider/transaction_provider.dart';
+import 'package:wave_mall_vendor/view/screens/transaction/widget/transaction_widget.dart';
 class WalletTransactionListView extends StatelessWidget {
   final TransactionProvider? transactionProvider;
   const WalletTransactionListView({Key? key, this.transactionProvider}) : super(key: key);

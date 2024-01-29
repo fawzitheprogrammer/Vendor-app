@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/month_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/transaction_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/year_model.dart';
-import 'package:sixvalley_vendor_app/data/repository/transaction_repo.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
+import 'package:wave_mall_vendor/data/model/response/base/api_response.dart';
+import 'package:wave_mall_vendor/data/model/response/month_model.dart';
+import 'package:wave_mall_vendor/data/model/response/transaction_model.dart';
+import 'package:wave_mall_vendor/data/model/response/year_model.dart';
+import 'package:wave_mall_vendor/data/repository/transaction_repo.dart';
+import 'package:wave_mall_vendor/helper/api_checker.dart';
+import 'package:wave_mall_vendor/helper/date_converter.dart';
 
 class TransactionProvider extends ChangeNotifier {
   final TransactionRepo? transactionRepo;

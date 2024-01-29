@@ -5,17 +5,17 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/response_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/shop_info_model.dart';
-import 'package:sixvalley_vendor_app/data/repository/shop_info_repo.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
+import 'package:wave_mall_vendor/data/model/response/base/api_response.dart';
+import 'package:wave_mall_vendor/data/model/response/response_model.dart';
+import 'package:wave_mall_vendor/data/model/response/shop_info_model.dart';
+import 'package:wave_mall_vendor/data/repository/shop_info_repo.dart';
+import 'package:wave_mall_vendor/helper/api_checker.dart';
 import 'package:http/http.dart' as http;
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/provider/auth_provider.dart';
-import 'package:sixvalley_vendor_app/provider/profile_provider.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/main.dart';
+import 'package:wave_mall_vendor/provider/auth_provider.dart';
+import 'package:wave_mall_vendor/provider/profile_provider.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
 
 class ShopProvider extends ChangeNotifier {
   final ShopRepo? shopRepo;

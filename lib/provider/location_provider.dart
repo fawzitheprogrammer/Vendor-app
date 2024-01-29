@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/place_details_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/prediction_model.dart';
-import 'package:sixvalley_vendor_app/data/repository/location_repo.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/data/model/response/base/api_response.dart';
+import 'package:wave_mall_vendor/data/model/response/place_details_model.dart';
+import 'package:wave_mall_vendor/data/model/response/prediction_model.dart';
+import 'package:wave_mall_vendor/data/repository/location_repo.dart';
+import 'package:wave_mall_vendor/main.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
 
 class LocationProvider with ChangeNotifier {
   final LocationRepo locationRepo;

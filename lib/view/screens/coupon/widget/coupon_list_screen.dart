@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/coupon_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/coupon_provider.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/base/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/view/base/paginated_list_view.dart';
-import 'package:sixvalley_vendor_app/view/screens/coupon/widget/add_new_coupon_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/coupon/widget/coupon_card.dart';
-import 'package:sixvalley_vendor_app/view/screens/order/order_screen.dart';
+import 'package:wave_mall_vendor/data/model/response/coupon_model.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/coupon_provider.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/base/no_data_screen.dart';
+import 'package:wave_mall_vendor/view/base/paginated_list_view.dart';
+import 'package:wave_mall_vendor/view/screens/coupon/widget/add_new_coupon_screen.dart';
+import 'package:wave_mall_vendor/view/screens/coupon/widget/coupon_card.dart';
+import 'package:wave_mall_vendor/view/screens/order/order_screen.dart';
 
 
 

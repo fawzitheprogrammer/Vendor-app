@@ -6,10 +6,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
-import 'package:sixvalley_vendor_app/view/screens/chat/inbox_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/notification/notification_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/order/order_details_screen.dart';
+import 'package:wave_mall_vendor/utill/app_constants.dart';
+import 'package:wave_mall_vendor/view/screens/chat/inbox_screen.dart';
+import 'package:wave_mall_vendor/view/screens/notification/notification_screen.dart';
+import 'package:wave_mall_vendor/view/screens/order/order_details_screen.dart';
 
 import '../main.dart';
 

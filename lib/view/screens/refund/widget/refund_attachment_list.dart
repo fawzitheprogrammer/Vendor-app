@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/data/model/response/refund_model.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_image.dart';
+import 'package:wave_mall_vendor/data/model/response/refund_model.dart';
+import 'package:wave_mall_vendor/utill/app_constants.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/view/base/custom_image.dart';
 import 'image_diaglog.dart';
 
 class RefundAttachmentList extends StatelessWidget {

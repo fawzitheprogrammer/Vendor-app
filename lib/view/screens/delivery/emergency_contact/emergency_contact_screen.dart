@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/emergency_contact_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_delegate.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_search_field.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/emergency_contact/widget/add_emergency_contact.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/emergency_contact/widget/emergency_contact_list.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/emergency_contact_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/base/custom_delegate.dart';
+import 'package:wave_mall_vendor/view/base/custom_search_field.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/emergency_contact/widget/add_emergency_contact.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/emergency_contact/widget/emergency_contact_list.dart';
 
 class EmergencyContactScreen extends StatefulWidget {
   const EmergencyContactScreen({Key? key}) : super(key: key);

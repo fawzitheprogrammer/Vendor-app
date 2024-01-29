@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/screens/product/most_popular_product.dart';
-import 'package:sixvalley_vendor_app/view/screens/product/top_selling_product.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/screens/product/most_popular_product.dart';
+import 'package:wave_mall_vendor/view/screens/product/top_selling_product.dart';
 
 class ProductListScreen extends StatelessWidget {
   final String title;

@@ -1,4 +1,4 @@
-# sixvalley_vendor_app
+# wave_mall_vendor
 
 A new Flutter application.
 

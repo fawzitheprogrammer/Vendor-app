@@ -2,18 +2,18 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/product_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/localization_provider.dart';
-import 'package:sixvalley_vendor_app/provider/product_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/view/base/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/view/base/product_widget.dart';
-import 'package:sixvalley_vendor_app/view/base/title_row.dart';
-import 'package:sixvalley_vendor_app/view/screens/refund/refund_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/stockOut/stock_out_product_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/stockOut/widget/stockout_product_card.dart';
+import 'package:wave_mall_vendor/data/model/response/product_model.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/localization_provider.dart';
+import 'package:wave_mall_vendor/provider/product_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/view/base/no_data_screen.dart';
+import 'package:wave_mall_vendor/view/base/product_widget.dart';
+import 'package:wave_mall_vendor/view/base/title_row.dart';
+import 'package:wave_mall_vendor/view/screens/refund/refund_screen.dart';
+import 'package:wave_mall_vendor/view/screens/stockOut/stock_out_product_screen.dart';
+import 'package:wave_mall_vendor/view/screens/stockOut/widget/stockout_product_card.dart';
 
 
 class StockOutProductView extends StatelessWidget {

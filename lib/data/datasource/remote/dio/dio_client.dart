@@ -2,8 +2,8 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/dio/logging_interceptor.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:wave_mall_vendor/data/datasource/remote/dio/logging_interceptor.dart';
+import 'package:wave_mall_vendor/utill/app_constants.dart';
 
 class DioClient {
   final String baseUrl;

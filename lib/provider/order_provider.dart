@@ -2,16 +2,16 @@ import 'dart:io';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/business_analytics_filter_data.dart';
-import 'package:sixvalley_vendor_app/data/model/response/invoice_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/order_details_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/order_model.dart';
-import 'package:sixvalley_vendor_app/data/repository/order_repo.dart';
-import 'package:sixvalley_vendor_app/helper/api_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/data/model/response/base/api_response.dart';
+import 'package:wave_mall_vendor/data/model/response/business_analytics_filter_data.dart';
+import 'package:wave_mall_vendor/data/model/response/invoice_model.dart';
+import 'package:wave_mall_vendor/data/model/response/order_details_model.dart';
+import 'package:wave_mall_vendor/data/model/response/order_model.dart';
+import 'package:wave_mall_vendor/data/repository/order_repo.dart';
+import 'package:wave_mall_vendor/helper/api_checker.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/main.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
 
 class OrderProvider extends ChangeNotifier {
   final OrderRepo? orderRepo;

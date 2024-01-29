@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
-import 'package:sixvalley_vendor_app/data/model/response/prediction_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/location_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
+import 'package:wave_mall_vendor/data/model/response/prediction_model.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/location_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
 
 class LocationSearchDialog extends StatelessWidget {
   final GoogleMapController? mapController;

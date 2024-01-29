@@ -4,18 +4,18 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/delivery_man_provider.dart';
-import 'package:sixvalley_vendor_app/provider/splash_provider.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_image.dart';
-import 'package:sixvalley_vendor_app/view/base/textfeild/custom_pass_textfeild.dart';
-import 'package:sixvalley_vendor_app/view/base/textfeild/custom_text_feild.dart';
-import 'package:sixvalley_vendor_app/view/screens/forgetPassword/widget/code_picker_widget.dart';
-import 'package:sixvalley_vendor_app/data/model/response/top_delivery_man.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/delivery_man_provider.dart';
+import 'package:wave_mall_vendor/provider/splash_provider.dart';
+import 'package:wave_mall_vendor/utill/color_resources.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/custom_image.dart';
+import 'package:wave_mall_vendor/view/base/textfeild/custom_pass_textfeild.dart';
+import 'package:wave_mall_vendor/view/base/textfeild/custom_text_feild.dart';
+import 'package:wave_mall_vendor/view/screens/forgetPassword/widget/code_picker_widget.dart';
+import 'package:wave_mall_vendor/data/model/response/top_delivery_man.dart';
 
 
 

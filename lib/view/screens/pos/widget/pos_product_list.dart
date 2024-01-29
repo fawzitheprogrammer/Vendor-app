@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/data/model/response/product_model.dart';
-import 'package:sixvalley_vendor_app/provider/product_provider.dart';
-import 'package:sixvalley_vendor_app/view/base/paginated_list_view.dart';
-import 'package:sixvalley_vendor_app/view/screens/pos/widget/pos_product_card.dart';
+import 'package:wave_mall_vendor/data/model/response/product_model.dart';
+import 'package:wave_mall_vendor/provider/product_provider.dart';
+import 'package:wave_mall_vendor/view/base/paginated_list_view.dart';
+import 'package:wave_mall_vendor/view/screens/pos/widget/pos_product_card.dart';
 
 class PosProductList extends StatelessWidget {
   final List<Product>? productList;
