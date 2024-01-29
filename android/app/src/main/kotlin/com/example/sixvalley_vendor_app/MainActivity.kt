@@ -1,4 +1,4 @@
-package com.sixamtech.sixvalley.seller
+package com.wavemall.seller
 
 import io.flutter.embedding.android.FlutterActivity
 
