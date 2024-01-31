@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixvalley_vendor_app/data/model/response/language_model.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:wave_mall_vendor/data/model/response/language_model.dart';
+import 'package:wave_mall_vendor/utill/app_constants.dart';
 
 class LocalizationProvider extends ChangeNotifier {
   final SharedPreferences? sharedPreferences;

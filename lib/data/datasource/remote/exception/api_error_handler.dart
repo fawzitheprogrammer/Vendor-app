@@ -1,8 +1,8 @@
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/main.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
 
 import '../../../model/response/base/error_response.dart';
 

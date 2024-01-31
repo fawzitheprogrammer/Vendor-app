@@ -1,13 +1,13 @@
 
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/data/model/response/delivery_man_withdraw_model.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/withdraw/withdraw_details_screen.dart';
+import 'package:wave_mall_vendor/data/model/response/delivery_man_withdraw_model.dart';
+import 'package:wave_mall_vendor/helper/date_converter.dart';
+import 'package:wave_mall_vendor/helper/price_converter.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/utill/color_resources.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/withdraw/withdraw_details_screen.dart';
 
 class WithdrawCardWidget extends StatelessWidget {
   final Withdraws? withdraw;

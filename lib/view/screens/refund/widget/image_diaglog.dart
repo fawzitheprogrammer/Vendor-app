@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
 
 
 

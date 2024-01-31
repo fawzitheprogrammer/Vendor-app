@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shimmer/shimmer.dart';
-import 'package:sixvalley_vendor_app/provider/chat_provider.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
+import 'package:wave_mall_vendor/provider/chat_provider.dart';
+import 'package:wave_mall_vendor/utill/color_resources.dart';
 class ChatShimmer extends StatelessWidget {
   const ChatShimmer({Key? key}) : super(key: key);
 

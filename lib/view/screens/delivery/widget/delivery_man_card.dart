@@ -3,18 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/top_delivery_man.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/delivery_man_provider.dart';
-import 'package:sixvalley_vendor_app/provider/localization_provider.dart';
-import 'package:sixvalley_vendor_app/provider/splash_provider.dart';
-import 'package:sixvalley_vendor_app/provider/theme_provider.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_image.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/delivery_man_details.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/widget/add_new_delivery_man.dart';
+import 'package:wave_mall_vendor/data/model/response/top_delivery_man.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/delivery_man_provider.dart';
+import 'package:wave_mall_vendor/provider/localization_provider.dart';
+import 'package:wave_mall_vendor/provider/splash_provider.dart';
+import 'package:wave_mall_vendor/provider/theme_provider.dart';
+import 'package:wave_mall_vendor/utill/color_resources.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/custom_image.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/delivery_man_details.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/widget/add_new_delivery_man.dart';
 
 
 class DeliveryManCardWidget extends StatelessWidget {

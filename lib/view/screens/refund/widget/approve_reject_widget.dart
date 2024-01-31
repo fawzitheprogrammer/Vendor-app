@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/refund_details_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/refund_model.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/refund_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/confirmation_dialog.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_button.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/data/model/response/refund_details_model.dart';
+import 'package:wave_mall_vendor/data/model/response/refund_model.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/refund_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/confirmation_dialog.dart';
+import 'package:wave_mall_vendor/view/base/custom_button.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
 
 class ApprovedAndRejectWidget extends StatefulWidget {
   final RefundModel? refundModel;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/screens/auth/auth_screen.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/screens/auth/auth_screen.dart';
 
 class RegisterSuccessfulWidget extends StatelessWidget {
   const RegisterSuccessfulWidget({Key? key}) : super(key: key);

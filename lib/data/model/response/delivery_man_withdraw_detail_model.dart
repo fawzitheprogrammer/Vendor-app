@@ -1,6 +1,6 @@
 
 
-import 'package:sixvalley_vendor_app/data/model/response/delivery_man_detail_model.dart';
+import 'package:wave_mall_vendor/data/model/response/delivery_man_detail_model.dart';
 
 class DeliveryManWithdrawDetailModel {
   Details? details;

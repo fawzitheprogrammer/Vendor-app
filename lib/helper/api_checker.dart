@@ -1,11 +1,11 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/provider/auth_provider.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
-import 'package:sixvalley_vendor_app/view/screens/auth/auth_screen.dart';
+import 'package:wave_mall_vendor/data/model/response/base/api_response.dart';
+import 'package:wave_mall_vendor/main.dart';
+import 'package:wave_mall_vendor/provider/auth_provider.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/view/screens/auth/auth_screen.dart';
 
 class ApiChecker {
   static void checkApi(ApiResponse apiResponse) {

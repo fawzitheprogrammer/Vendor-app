@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/provider/bank_info_provider.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/view/screens/home/widget/transaction_chart.dart';
+import 'package:wave_mall_vendor/provider/bank_info_provider.dart';
+import 'package:wave_mall_vendor/utill/color_resources.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/view/screens/home/widget/transaction_chart.dart';
 
 class ChartWidget extends StatelessWidget {
   const ChartWidget({Key? key}) : super(key: key);

@@ -1,4 +1,4 @@
-import 'package:sixvalley_vendor_app/data/model/response/review_model.dart';
+import 'package:wave_mall_vendor/data/model/response/review_model.dart';
 
 class ProductReviewModel {
   int? totalSize;

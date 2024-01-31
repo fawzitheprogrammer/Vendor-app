@@ -1,20 +1,20 @@
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/auth_provider.dart';
-import 'package:sixvalley_vendor_app/provider/splash_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_button.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_dialog.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
-import 'package:sixvalley_vendor_app/view/base/textfeild/custom_text_feild.dart';
-import 'package:sixvalley_vendor_app/view/screens/forgetPassword/widget/code_picker_widget.dart';
-import 'package:sixvalley_vendor_app/view/screens/forgetPassword/widget/my_dialog.dart';
-import 'package:sixvalley_vendor_app/view/screens/forgetPassword/widget/otp_verification_screen.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/auth_provider.dart';
+import 'package:wave_mall_vendor/provider/splash_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/base/custom_button.dart';
+import 'package:wave_mall_vendor/view/base/custom_dialog.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/view/base/textfeild/custom_text_feild.dart';
+import 'package:wave_mall_vendor/view/screens/forgetPassword/widget/code_picker_widget.dart';
+import 'package:wave_mall_vendor/view/screens/forgetPassword/widget/my_dialog.dart';
+import 'package:wave_mall_vendor/view/screens/forgetPassword/widget/otp_verification_screen.dart';
 
 class ForgetPasswordScreen extends StatefulWidget {
   const ForgetPasswordScreen({Key? key}) : super(key: key);

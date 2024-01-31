@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.swift.wavemall.seller">
+=======
+    package="com.wavemall.seller">
+>>>>>>> 505bf44c219dfa4974f59a80090d4add1b93607a
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />

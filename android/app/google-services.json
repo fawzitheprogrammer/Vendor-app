@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:975837518429:android:9252be391a60be599f0bb4",
         "android_client_info": {
-          "package_name": "com.example.sixvalley_vendor_app"
+          "package_name": "com.example.wave_mall_vendor"
         }
       },
       "oauth_client": [
@@ -133,7 +133,11 @@
       "client_info": {
         "mobilesdk_app_id": "1:975837518429:android:e9aa79ea44c0dd549f0bb4",
         "android_client_info": {
+<<<<<<< HEAD
           "package_name": "com.swift.wavemall.seller"
+=======
+          "package_name": "com.wavemall.seller"
+>>>>>>> 505bf44c219dfa4974f59a80090d4add1b93607a
         }
       },
       "oauth_client": [

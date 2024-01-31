@@ -2,12 +2,12 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/dio/dio_client.dart';
-import 'package:sixvalley_vendor_app/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:sixvalley_vendor_app/data/model/body/seller_body.dart';
-import 'package:sixvalley_vendor_app/data/model/response/base/api_response.dart';
-import 'package:sixvalley_vendor_app/data/model/response/seller_info.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
+import 'package:wave_mall_vendor/data/datasource/remote/dio/dio_client.dart';
+import 'package:wave_mall_vendor/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:wave_mall_vendor/data/model/body/seller_body.dart';
+import 'package:wave_mall_vendor/data/model/response/base/api_response.dart';
+import 'package:wave_mall_vendor/data/model/response/seller_info.dart';
+import 'package:wave_mall_vendor/utill/app_constants.dart';
 import 'package:http/http.dart' as http;
 
 class ProfileRepo{

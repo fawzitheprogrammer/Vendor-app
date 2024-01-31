@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/delivery_man_provider.dart';
-import 'package:sixvalley_vendor_app/provider/splash_provider.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_button.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/helper/price_converter.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/delivery_man_provider.dart';
+import 'package:wave_mall_vendor/provider/splash_provider.dart';
+import 'package:wave_mall_vendor/utill/color_resources.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/custom_button.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
 
 
 

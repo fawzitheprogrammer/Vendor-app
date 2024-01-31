@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/chat_provider.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_loader.dart';
-import 'package:sixvalley_vendor_app/view/base/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/view/base/paginated_list_view.dart';
-import 'package:sixvalley_vendor_app/view/screens/chat/widget/chat_card_widget.dart';
-import 'package:sixvalley_vendor_app/view/screens/chat/widget/chat_header.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/chat_provider.dart';
+import 'package:wave_mall_vendor/utill/color_resources.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/base/custom_loader.dart';
+import 'package:wave_mall_vendor/view/base/no_data_screen.dart';
+import 'package:wave_mall_vendor/view/base/paginated_list_view.dart';
+import 'package:wave_mall_vendor/view/screens/chat/widget/chat_card_widget.dart';
+import 'package:wave_mall_vendor/view/screens/chat/widget/chat_header.dart';
 
 class InboxScreen extends StatefulWidget {
   final bool isBackButtonExist;

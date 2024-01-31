@@ -1,19 +1,19 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/refund_details_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/refund_model.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/refund_provider.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/screens/refund/widget/approve_reject_widget.dart';
-import 'package:sixvalley_vendor_app/view/screens/refund/widget/customer_info_widget.dart';
-import 'package:sixvalley_vendor_app/view/screens/refund/widget/delivery_man_info_widget.dart';
-import 'package:sixvalley_vendor_app/view/screens/refund/widget/refund_pricing_widget.dart';
-import 'package:sixvalley_vendor_app/view/screens/refund/widget/refund_widget.dart';
+import 'package:wave_mall_vendor/data/model/response/refund_details_model.dart';
+import 'package:wave_mall_vendor/data/model/response/refund_model.dart';
+import 'package:wave_mall_vendor/helper/price_converter.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/refund_provider.dart';
+import 'package:wave_mall_vendor/utill/color_resources.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/screens/refund/widget/approve_reject_widget.dart';
+import 'package:wave_mall_vendor/view/screens/refund/widget/customer_info_widget.dart';
+import 'package:wave_mall_vendor/view/screens/refund/widget/delivery_man_info_widget.dart';
+import 'package:wave_mall_vendor/view/screens/refund/widget/refund_pricing_widget.dart';
+import 'package:wave_mall_vendor/view/screens/refund/widget/refund_widget.dart';
 
 
 

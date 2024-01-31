@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/data/model/response/top_delivery_man.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/widget/delivery_man_earning_list_view.dart';
+import 'package:wave_mall_vendor/data/model/response/top_delivery_man.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/widget/delivery_man_earning_list_view.dart';
 
 
 

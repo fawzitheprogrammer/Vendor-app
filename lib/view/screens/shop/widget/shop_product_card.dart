@@ -1,24 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/product_model.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/localization_provider.dart';
-import 'package:sixvalley_vendor_app/provider/product_provider.dart';
-import 'package:sixvalley_vendor_app/provider/profile_provider.dart';
-import 'package:sixvalley_vendor_app/provider/shop_provider.dart';
-import 'package:sixvalley_vendor_app/provider/splash_provider.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/confirmation_dialog.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_image.dart';
-import 'package:sixvalley_vendor_app/view/base/image_diaglog.dart';
-import 'package:sixvalley_vendor_app/view/screens/addProduct/add_product_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/product/product_details.dart';
-import 'package:sixvalley_vendor_app/view/screens/shop/widget/bar_code_generator.dart';
+import 'package:wave_mall_vendor/data/model/response/product_model.dart';
+import 'package:wave_mall_vendor/helper/price_converter.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/localization_provider.dart';
+import 'package:wave_mall_vendor/provider/product_provider.dart';
+import 'package:wave_mall_vendor/provider/profile_provider.dart';
+import 'package:wave_mall_vendor/provider/shop_provider.dart';
+import 'package:wave_mall_vendor/provider/splash_provider.dart';
+import 'package:wave_mall_vendor/utill/color_resources.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/confirmation_dialog.dart';
+import 'package:wave_mall_vendor/view/base/custom_image.dart';
+import 'package:wave_mall_vendor/view/base/image_diaglog.dart';
+import 'package:wave_mall_vendor/view/screens/addProduct/add_product_screen.dart';
+import 'package:wave_mall_vendor/view/screens/product/product_details.dart';
+import 'package:wave_mall_vendor/view/screens/shop/widget/bar_code_generator.dart';
 
 
 

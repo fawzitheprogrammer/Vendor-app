@@ -4,12 +4,12 @@ import 'dart:io';
 import 'package:esc_pos_utils/esc_pos_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_pos_printer_platform/flutter_pos_printer_platform.dart';
-import 'package:sixvalley_vendor_app/data/model/response/invoice_model.dart';
-import 'package:sixvalley_vendor_app/data/model/response/shop_info_model.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/data/model/response/invoice_model.dart';
+import 'package:wave_mall_vendor/data/model/response/shop_info_model.dart';
+import 'package:wave_mall_vendor/helper/date_converter.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/main.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
 
 
 

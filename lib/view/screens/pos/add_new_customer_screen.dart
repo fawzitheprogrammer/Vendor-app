@@ -1,17 +1,17 @@
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/body/customer_body.dart';
-import 'package:sixvalley_vendor_app/helper/email_checker.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/cart_provider.dart';
-import 'package:sixvalley_vendor_app/provider/splash_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_button.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
-import 'package:sixvalley_vendor_app/view/base/textfeild/custom_text_feild.dart';
-import 'package:sixvalley_vendor_app/view/screens/forgetPassword/widget/code_picker_widget.dart';
+import 'package:wave_mall_vendor/data/model/body/customer_body.dart';
+import 'package:wave_mall_vendor/helper/email_checker.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/cart_provider.dart';
+import 'package:wave_mall_vendor/provider/splash_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/base/custom_button.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/view/base/textfeild/custom_text_feild.dart';
+import 'package:wave_mall_vendor/view/screens/forgetPassword/widget/code_picker_widget.dart';
 
 class AddNewCustomerScreen extends StatefulWidget {
   const AddNewCustomerScreen({Key? key}) : super(key: key);

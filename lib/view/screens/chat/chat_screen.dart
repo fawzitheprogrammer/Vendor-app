@@ -2,12 +2,12 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/provider/chat_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/screens/chat/widget/chat_shimmer.dart';
-import 'package:sixvalley_vendor_app/view/screens/chat/widget/message_bubble.dart';
-import 'package:sixvalley_vendor_app/view/screens/chat/widget/send_message_widget.dart';
+import 'package:wave_mall_vendor/provider/chat_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/screens/chat/widget/chat_shimmer.dart';
+import 'package:wave_mall_vendor/view/screens/chat/widget/message_bubble.dart';
+import 'package:wave_mall_vendor/view/screens/chat/widget/send_message_widget.dart';
 
 class ChatScreen extends StatefulWidget {
   final String name;

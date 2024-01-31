@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/language_model.dart';
-import 'package:sixvalley_vendor_app/provider/localization_provider.dart';
-import 'package:sixvalley_vendor_app/provider/theme_provider.dart';
-import 'package:sixvalley_vendor_app/utill/app_constants.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
+import 'package:wave_mall_vendor/data/model/response/language_model.dart';
+import 'package:wave_mall_vendor/provider/localization_provider.dart';
+import 'package:wave_mall_vendor/provider/theme_provider.dart';
+import 'package:wave_mall_vendor/utill/app_constants.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
 
 class LanguageWidget extends StatelessWidget {
   final LanguageModel languageModel;

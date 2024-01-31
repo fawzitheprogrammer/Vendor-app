@@ -1,18 +1,18 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/top_delivery_man.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/auth_provider.dart';
-import 'package:sixvalley_vendor_app/provider/delivery_man_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/widget/collect_cash_from_delivery_man_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/widget/delivery_man_earning_list.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/widget/delivery_man_order_history.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/widget/delivery_man_review_list.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/widget/overview_widget.dart';
+import 'package:wave_mall_vendor/data/model/response/top_delivery_man.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/auth_provider.dart';
+import 'package:wave_mall_vendor/provider/delivery_man_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/widget/collect_cash_from_delivery_man_screen.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/widget/delivery_man_earning_list.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/widget/delivery_man_order_history.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/widget/delivery_man_review_list.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/widget/overview_widget.dart';
 
 
 

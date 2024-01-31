@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/helper/date_converter.dart';
-import 'package:sixvalley_vendor_app/helper/price_converter.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/main.dart';
-import 'package:sixvalley_vendor_app/provider/order_provider.dart';
-import 'package:sixvalley_vendor_app/provider/shop_info_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_divider.dart';
-import 'package:sixvalley_vendor_app/view/screens/pos_printer/invoice_print.dart';
+import 'package:wave_mall_vendor/helper/date_converter.dart';
+import 'package:wave_mall_vendor/helper/price_converter.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/main.dart';
+import 'package:wave_mall_vendor/provider/order_provider.dart';
+import 'package:wave_mall_vendor/provider/shop_info_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/base/custom_divider.dart';
+import 'package:wave_mall_vendor/view/screens/pos_printer/invoice_print.dart';
 import 'widget/invoice_element_view.dart';
 
 class InVoiceScreen extends StatefulWidget {

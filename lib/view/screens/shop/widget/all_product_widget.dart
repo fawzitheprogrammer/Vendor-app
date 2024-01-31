@@ -1,20 +1,20 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/localization_provider.dart';
-import 'package:sixvalley_vendor_app/provider/product_provider.dart';
-import 'package:sixvalley_vendor_app/provider/profile_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/no_data_screen.dart';
-import 'package:sixvalley_vendor_app/view/base/paginated_list_view.dart';
-import 'package:sixvalley_vendor_app/view/screens/addProduct/add_product_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/order/order_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/shop/widget/animated_floating_button.dart';
-import 'package:sixvalley_vendor_app/view/screens/shop/widget/shop_product_card.dart';
-import 'package:sixvalley_vendor_app/view/screens/stockOut/stock_out_product_screen.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/localization_provider.dart';
+import 'package:wave_mall_vendor/provider/product_provider.dart';
+import 'package:wave_mall_vendor/provider/profile_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/no_data_screen.dart';
+import 'package:wave_mall_vendor/view/base/paginated_list_view.dart';
+import 'package:wave_mall_vendor/view/screens/addProduct/add_product_screen.dart';
+import 'package:wave_mall_vendor/view/screens/order/order_screen.dart';
+import 'package:wave_mall_vendor/view/screens/shop/widget/animated_floating_button.dart';
+import 'package:wave_mall_vendor/view/screens/shop/widget/shop_product_card.dart';
+import 'package:wave_mall_vendor/view/screens/stockOut/stock_out_product_screen.dart';
 
 class ProductView extends StatefulWidget {
   final int? sellerId;

@@ -41,7 +41,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId "com.swift.wavemall.seller"
+=======
+        applicationId "com.wavemall.seller"
+>>>>>>> 505bf44c219dfa4974f59a80090d4add1b93607a
         minSdkVersion 21
         targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()

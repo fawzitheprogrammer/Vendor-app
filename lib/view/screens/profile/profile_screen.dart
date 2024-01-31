@@ -3,19 +3,19 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/body/seller_body.dart';
-import 'package:sixvalley_vendor_app/data/model/response/seller_info.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/auth_provider.dart';
-import 'package:sixvalley_vendor_app/provider/bank_info_provider.dart';
-import 'package:sixvalley_vendor_app/provider/profile_provider.dart';
-import 'package:sixvalley_vendor_app/provider/splash_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_button.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_image.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_snackbar.dart';
-import 'package:sixvalley_vendor_app/view/base/textfeild/custom_text_feild.dart';
+import 'package:wave_mall_vendor/data/model/body/seller_body.dart';
+import 'package:wave_mall_vendor/data/model/response/seller_info.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/auth_provider.dart';
+import 'package:wave_mall_vendor/provider/bank_info_provider.dart';
+import 'package:wave_mall_vendor/provider/profile_provider.dart';
+import 'package:wave_mall_vendor/provider/splash_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/base/custom_button.dart';
+import 'package:wave_mall_vendor/view/base/custom_image.dart';
+import 'package:wave_mall_vendor/view/base/custom_snackbar.dart';
+import 'package:wave_mall_vendor/view/base/textfeild/custom_text_feild.dart';
 
 
 class ProfileScreen extends StatefulWidget {

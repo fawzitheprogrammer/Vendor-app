@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/data/model/response/top_delivery_man.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/delivery_man_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/images.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/screens/bank_info/widget/bank_info_widget.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/widget/balance_statement_widget.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/widget/delivery_man_card.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/widget/delivery_man_withdraw_cash.dart';
-import 'package:sixvalley_vendor_app/view/screens/delivery/withdraw/withdraw_details_screen.dart';
+import 'package:wave_mall_vendor/data/model/response/top_delivery_man.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/delivery_man_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/images.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/screens/bank_info/widget/bank_info_widget.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/widget/balance_statement_widget.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/widget/delivery_man_card.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/widget/delivery_man_withdraw_cash.dart';
+import 'package:wave_mall_vendor/view/screens/delivery/withdraw/withdraw_details_screen.dart';
 
 class DeliveryManOverViewScreen extends StatelessWidget {
   final DeliveryMan? deliveryMan;

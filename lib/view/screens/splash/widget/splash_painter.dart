@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sixvalley_vendor_app/utill/color_resources.dart';
+import 'package:wave_mall_vendor/utill/color_resources.dart';
 
 class SplashPainter extends CustomPainter {
   @override

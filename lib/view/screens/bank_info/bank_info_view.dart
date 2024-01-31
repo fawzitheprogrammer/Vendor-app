@@ -1,14 +1,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sixvalley_vendor_app/localization/language_constrants.dart';
-import 'package:sixvalley_vendor_app/provider/bank_info_provider.dart';
-import 'package:sixvalley_vendor_app/provider/theme_provider.dart';
-import 'package:sixvalley_vendor_app/utill/dimensions.dart';
-import 'package:sixvalley_vendor_app/utill/styles.dart';
-import 'package:sixvalley_vendor_app/view/base/custom_app_bar.dart';
-import 'package:sixvalley_vendor_app/view/screens/bank_info/bank_editing_screen.dart';
-import 'package:sixvalley_vendor_app/view/screens/bank_info/widget/bank_info_widget.dart';
+import 'package:wave_mall_vendor/localization/language_constrants.dart';
+import 'package:wave_mall_vendor/provider/bank_info_provider.dart';
+import 'package:wave_mall_vendor/provider/theme_provider.dart';
+import 'package:wave_mall_vendor/utill/dimensions.dart';
+import 'package:wave_mall_vendor/utill/styles.dart';
+import 'package:wave_mall_vendor/view/base/custom_app_bar.dart';
+import 'package:wave_mall_vendor/view/screens/bank_info/bank_editing_screen.dart';
+import 'package:wave_mall_vendor/view/screens/bank_info/widget/bank_info_widget.dart';
 
 class BankInfoView extends StatelessWidget {
   const BankInfoView({Key? key}) : super(key: key);
