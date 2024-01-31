@@ -121,7 +121,7 @@ class CodePickerWidget extends StatefulWidget {
     List<Map<String, String>> jsonList = countryList;
 
     List<CountryCode> elements =
-    jsonList.map((json) => CountryCode.fromJson(json)).toList();
+        jsonList.map((json) => CountryCode.fromJson(json)).toList();
 
     if (comparator != null) {
       elements.sort(comparator);
@@ -129,12 +129,12 @@ class CodePickerWidget extends StatefulWidget {
 
     if (countryFilter != null && countryFilter!.isNotEmpty) {
       final uppercaseCustomList =
-      countryFilter!.map((criteria) => criteria.toUpperCase()).toList();
+          countryFilter!.map((criteria) => criteria.toUpperCase()).toList();
       elements = elements
           .where((criteria) =>
-      uppercaseCustomList.contains(criteria.code) ||
-          uppercaseCustomList.contains(criteria.name) ||
-          uppercaseCustomList.contains(criteria.dialCode))
+              uppercaseCustomList.contains(criteria.code) ||
+              uppercaseCustomList.contains(criteria.name) ||
+              uppercaseCustomList.contains(criteria.dialCode))
           .toList();
     }
 
@@ -154,12 +154,12 @@ class CodePickerWidgetState extends State<CodePickerWidget> {
     Widget internalWidget;
     if (widget.builder != null) {
       internalWidget = InkWell(
-        onTap: showCodePickerWidgetDialog,
+        // onTap: showCodePickerWidgetDialog,
         child: widget.builder!(selectedItem),
       );
     } else {
       internalWidget = TextButton(
-        onPressed: widget.enabled ? showCodePickerWidgetDialog : null,
+        onPressed: widget.enabled ? () {} : null,
         child: Padding(
           padding: widget.padding,
           child: Flex(
@@ -199,20 +199,21 @@ class CodePickerWidgetState extends State<CodePickerWidget> {
                     overflow: widget.textOverflow,
                   ),
                 ),
-              if (widget.showDropDownButton)
-                Flexible(
-                  flex: widget.alignLeft ? 0 : 1,
-                  fit: widget.alignLeft ? FlexFit.tight : FlexFit.loose,
-                  child: Padding(
-                      padding: widget.alignLeft
-                          ? const EdgeInsets.only(right: 16.0, left: 8.0)
-                          : const EdgeInsets.only(right: 16.0),
-                      child: Icon(
-                        Icons.arrow_drop_down,
-                        color: Colors.grey,
-                        size: widget.flagWidth,
-                      )),
-                ),
+              //if (widget.showDropDownButton)
+                // Flexible(
+                //   flex: widget.alignLeft ? 0 : 1,
+                //   fit: widget.alignLeft ? FlexFit.tight : FlexFit.loose,
+                //   child: Padding(
+                //     padding: widget.alignLeft
+                //         ? const EdgeInsets.only(right: 16.0, left: 8.0)
+                //         : const EdgeInsets.only(right: 16.0),
+                //     child: Icon(
+                //       Icons.arrow_drop_down,
+                //       color: Colors.grey,
+                //       size: widget.flagWidth,
+                //     ),
+                //   ),
+                // ),
             ],
           ),
         ),
@@ -236,9 +237,9 @@ class CodePickerWidgetState extends State<CodePickerWidget> {
     if (oldWidget.initialSelection != widget.initialSelection) {
       if (widget.initialSelection != null) {
         selectedItem = elements.firstWhere(
-                (criteria) =>
-            (criteria.code!.toUpperCase() ==
-                widget.initialSelection!.toUpperCase()) ||
+            (criteria) =>
+                (criteria.code!.toUpperCase() ==
+                    widget.initialSelection!.toUpperCase()) ||
                 (criteria.dialCode == widget.initialSelection) ||
                 (criteria.name!.toUpperCase() ==
                     widget.initialSelection!.toUpperCase()),
@@ -256,9 +257,9 @@ class CodePickerWidgetState extends State<CodePickerWidget> {
 
     if (widget.initialSelection != null) {
       selectedItem = elements.firstWhere(
-              (item) =>
-          (item.code!.toUpperCase() ==
-              widget.initialSelection!.toUpperCase()) ||
+          (item) =>
+              (item.code!.toUpperCase() ==
+                  widget.initialSelection!.toUpperCase()) ||
               (item.dialCode == widget.initialSelection) ||
               (item.name!.toUpperCase() ==
                   widget.initialSelection!.toUpperCase()),
@@ -269,11 +270,11 @@ class CodePickerWidgetState extends State<CodePickerWidget> {
 
     favoriteElements = elements
         .where((item) =>
-    widget.favorite.firstWhereOrNull((criteria) =>
-    item.code!.toUpperCase() == criteria.toUpperCase() ||
-        item.dialCode == criteria ||
-        item.name!.toUpperCase() == criteria.toUpperCase()) !=
-        null)
+            widget.favorite.firstWhereOrNull((criteria) =>
+                item.code!.toUpperCase() == criteria.toUpperCase() ||
+                item.dialCode == criteria ||
+                item.name!.toUpperCase() == criteria.toUpperCase()) !=
+            null)
         .toList();
   }
 
@@ -308,6 +309,7 @@ class CodePickerWidgetState extends State<CodePickerWidget> {
     if (item != null) {
       setState(() {
         selectedItem = item;
+        print(selectedItem?.dialCode);
       });
 
       _publishSelection(item);

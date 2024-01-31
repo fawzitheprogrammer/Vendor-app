@@ -4,8 +4,8 @@ import 'package:sixvalley_vendor_app/utill/images.dart';
 class AppConstants {
   static const String appName = 'Wave Mall Vendor App';
   static const String appVersion = '14.3';
-  static const String companyName = '6Valley';
-  static const String baseUrl = 'https://wavemall-swifttech.com/';
+  static const String companyName = 'Wave Mall';
+  static const String baseUrl = 'https://wavemall-swifttech.com';
   static const String loginUri = '/api/v3/seller/auth/login';
   static const String configUri = '/api/v1/config';
   static const String sellerUri = '/api/v3/seller/seller-info';

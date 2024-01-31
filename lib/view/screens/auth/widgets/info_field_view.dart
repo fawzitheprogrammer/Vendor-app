@@ -27,17 +27,18 @@ class InfoFieldVIew extends StatefulWidget {
 }
 
 class _InfoFieldVIewState extends State<InfoFieldVIew> {
-  String? _countryDialCode = "+880";
+  String? _countryDialCode = "+964";
   String currency = '',  country = '', selectedTimeZone = '';
   @override
   void initState() {
     super.initState();
-   _countryDialCode = CountryCode.fromCountryCode(Provider.of<SplashProvider>(context, listen: false).configModel!.countryCode!).dialCode;
+   _countryDialCode = '+964';
   }
   @override
   Widget build(BuildContext context) {
     return Consumer<AuthProvider>(
       builder: (authContext, authProvider, _) {
+        authProvider.setCountryDialCode('+964');
         return SingleChildScrollView(
           child: Column( crossAxisAlignment: CrossAxisAlignment.start, children: [
 
@@ -142,7 +143,7 @@ class _InfoFieldVIewState extends State<InfoFieldVIew> {
                     CodePickerWidget(
                       onChanged: (CountryCode countryCode) {
                         _countryDialCode = countryCode.dialCode;
-                        authProvider.setCountryDialCode(_countryDialCode);
+                        authProvider.setCountryDialCode('+964');
                       },
                       initialSelection: _countryDialCode,
                       favorite: [authProvider.countryDialCode!],
