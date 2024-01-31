@@ -31,7 +31,13 @@
         <string>http</string>
         <string>https</string>
     </array>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Wave Mall Vendor requires Bluetooth access to connect with nearby Bluetooth devices for a seamless shopping experience, including digital payments and product information sharing.</string>
 	<key>NSCameraUsageDescription</key>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Wave Mall Vendor requires continuous location access to provide real-time location-based services such as tracking deliveries and offering location-specific promotions to customers.</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Wave Mall Vendor requires always-on Bluetooth access to enable seamless connectivity with Bluetooth devices for features such as mobile payments and inventory management.</string>
 	<string>Wave Mall Vendor needs camera access for taking photo for user profile picture.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Wave Mall Vendor needs access to location to manage delivery address when add a new address.</string>
