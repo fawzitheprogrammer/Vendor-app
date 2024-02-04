@@ -64,16 +64,16 @@ class MenuBottomSheet extends StatelessWidget {
           onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (_)=> const SettingsScreen()))),
 
 
-      CustomBottomSheet(image: Images.wallet, title: getTranslated('wallet', context),
-          onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (_)=> const WalletScreen()))),
+      // CustomBottomSheet(image: Images.wallet, title: getTranslated('wallet', context),
+      //     onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (_)=> const WalletScreen()))),
 
 
       CustomBottomSheet(image: Images.message, title: getTranslated('message', context),
           onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (_)=> const InboxScreen()))),
 
 
-      CustomBottomSheet(image: Images.bankingInfo, title: getTranslated('bank_info', context),
-          onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (_)=> const BankInfoView()))),
+      // CustomBottomSheet(image: Images.bankingInfo, title: getTranslated('bank_info', context),
+      //     onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (_)=> const BankInfoView()))),
 
 
       CustomBottomSheet(image: Images.termsAndCondition, title: getTranslated('terms_and_condition', context),
