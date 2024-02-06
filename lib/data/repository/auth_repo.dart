@@ -19,44 +19,47 @@ class AuthRepo {
 
   Future<ApiResponse> login({String? emailAddress, String? password}) async {
     try {
-      Response response = await dioClient!.post(AppConstants.loginUri,
+      Response response = await dioClient!.post(
+        AppConstants.loginUri,
         data: {"email": emailAddress, "password": password},
       );
       return ApiResponse.withSuccess(response);
     } catch (e) {
-     return ApiResponse.withError(ApiErrorHandler.getMessage(e));
+      return ApiResponse.withError(ApiErrorHandler.getMessage(e));
     }
   }
-
 
   Future<ApiResponse> setLanguageCode(String languageCode) async {
     try {
-      final response = await dioClient!.post(AppConstants.setCurrentLanguageUri, data: {
-        'current_language' : languageCode,
-        '_method' : 'put'
-      });
+      final response = await dioClient!.post(AppConstants.setCurrentLanguageUri,
+          data: {'current_language': languageCode, '_method': 'put'});
       return ApiResponse.withSuccess(response);
     } catch (e) {
       return ApiResponse.withError(ApiErrorHandler.getMessage(e));
     }
   }
-
 
   Future<ApiResponse> forgetPassword(String identity) async {
     try {
-      Response response = await dioClient!.post(AppConstants.forgetPasswordUri, data: {"identity": identity});
+      Response response = await dioClient!
+          .post(AppConstants.forgetPasswordUri, data: {"identity": identity});
       return ApiResponse.withSuccess(response);
     } catch (e) {
       return ApiResponse.withError(ApiErrorHandler.getMessage(e));
     }
   }
 
-  Future<ApiResponse> resetPassword(String identity, String otp ,String password, String confirmPassword) async {
+  Future<ApiResponse> resetPassword(String identity, String otp,
+      String password, String confirmPassword) async {
     try {
-      Response response = await dioClient!.post(
-          AppConstants.resetPasswordUri, data: {"_method" : "put",
-        "identity": identity.trim(), "otp": otp,
-        "password": password, "confirm_password":confirmPassword});
+      Response response =
+          await dioClient!.post(AppConstants.resetPasswordUri, data: {
+        "_method": "put",
+        "identity": identity.trim(),
+        "otp": otp,
+        "password": password,
+        "confirm_password": confirmPassword
+      });
       return ApiResponse.withSuccess(response);
     } catch (e) {
       return ApiResponse.withError(ApiErrorHandler.getMessage(e));
@@ -65,14 +68,13 @@ class AuthRepo {
 
   Future<ApiResponse> verifyOtp(String identity, String otp) async {
     try {
-      Response response = await dioClient!.post(
-          AppConstants.verifyOtpUri, data: {"identity": identity.trim(), "otp": otp});
+      Response response = await dioClient!.post(AppConstants.verifyOtpUri,
+          data: {"identity": identity.trim(), "otp": otp});
       return ApiResponse.withSuccess(response);
     } catch (e) {
       return ApiResponse.withError(ApiErrorHandler.getMessage(e));
     }
   }
-
 
   Future<ApiResponse> updateToken() async {
     try {
@@ -90,9 +92,9 @@ class AuthRepo {
 
   Future<String?> _getDeviceToken() async {
     String? deviceToken;
-    if(Platform.isIOS) {
+    if (Platform.isIOS) {
       deviceToken = await FirebaseMessaging.instance.getAPNSToken();
-    }else {
+    } else {
       deviceToken = await FirebaseMessaging.instance.getToken();
     }
 
@@ -107,7 +109,10 @@ class AuthRepo {
   // for  user token
   Future<void> saveUserToken(String token) async {
     dioClient!.token = token;
-    dioClient!.dio!.options.headers = {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': 'Bearer $token'};
+    dioClient!.dio!.options.headers = {
+      'Content-Type': 'application/json; charset=UTF-8',
+      'Authorization': 'Bearer $token'
+    };
 
     try {
       await sharedPreferences!.setString(AppConstants.token, token);
@@ -153,23 +158,40 @@ class AuthRepo {
     return await sharedPreferences!.remove(AppConstants.userEmail);
   }
 
-  Future<ApiResponse> registration(XFile? profileImage, XFile? shopLogo, XFile? shopBanner, XFile? secondaryBanner, RegisterModel registerModel) async {
-    http.MultipartRequest request = http.MultipartRequest('POST', Uri.parse('${AppConstants.baseUrl}${AppConstants.registration}'));
-    if(profileImage != null) {
+  Future<ApiResponse> registration(
+      XFile? profileImage,
+      XFile? shopLogo,
+      XFile? shopBanner,
+      XFile? secondaryBanner,
+      RegisterModel registerModel) async {
+    http.MultipartRequest request = http.MultipartRequest('POST',
+        Uri.parse('${AppConstants.baseUrl}${AppConstants.registration}'));
+    if (profileImage != null) {
       Uint8List list = await profileImage.readAsBytes();
-      var part = http.MultipartFile('image', profileImage.readAsBytes().asStream(), list.length, filename: basename(profileImage.path));
+      var part = http.MultipartFile(
+          'image', profileImage.readAsBytes().asStream(), list.length,
+          filename: basename(profileImage.path));
       request.files.add(part);
-    } if(shopLogo != null) {
+    }
+    if (shopLogo != null) {
       Uint8List list = await shopLogo.readAsBytes();
-      var part = http.MultipartFile('logo', shopLogo.readAsBytes().asStream(), list.length, filename: basename(shopLogo.path));
+      var part = http.MultipartFile(
+          'logo', shopLogo.readAsBytes().asStream(), list.length,
+          filename: basename(shopLogo.path));
       request.files.add(part);
-    } if(shopBanner != null) {
+    }
+    if (shopBanner != null) {
       Uint8List list = await shopBanner.readAsBytes();
-      var part = http.MultipartFile('banner', shopBanner.readAsBytes().asStream(), list.length, filename: basename(shopBanner.path));
+      var part = http.MultipartFile(
+          'banner', shopBanner.readAsBytes().asStream(), list.length,
+          filename: basename(shopBanner.path));
       request.files.add(part);
-    }if(secondaryBanner != null) {
+    }
+    if (secondaryBanner != null) {
       Uint8List list = await secondaryBanner.readAsBytes();
-      var part = http.MultipartFile('bottom_banner', secondaryBanner.readAsBytes().asStream(), list.length, filename: basename(secondaryBanner.path));
+      var part = http.MultipartFile('bottom_banner',
+          secondaryBanner.readAsBytes().asStream(), list.length,
+          filename: basename(secondaryBanner.path));
       request.files.add(part);
     }
 
@@ -197,13 +219,13 @@ class AuthRepo {
     }
 
     try {
-      return ApiResponse.withSuccess(Response(statusCode: response.statusCode,
+      return ApiResponse.withSuccess(Response(
+          statusCode: response.statusCode,
           requestOptions: RequestOptions(path: ''),
-          statusMessage: response.reasonPhrase, data: res.body));
+          statusMessage: response.reasonPhrase,
+          data: res.body));
     } catch (e) {
       return ApiResponse.withError(ApiErrorHandler.getMessage(e));
-
     }
   }
-
 }

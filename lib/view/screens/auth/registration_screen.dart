@@ -196,13 +196,15 @@ class _RegistrationScreenState extends State<RegistrationScreen>
                                     getTranslated(
                                         'password_is_mismatch', context),
                                     context);
-                              } else if (authProvider.sellerProfileImage ==
-                                  null) {
-                                showCustomSnackBar(
-                                    getTranslated(
-                                        'profile_image_is_required', context),
-                                    context);
-                              } else {
+                              }
+                              // else if (authProvider.sellerProfileImage ==
+                              //     null) {
+                              //   showCustomSnackBar(
+                              //       getTranslated(
+                              //           'profile_image_is_required', context),
+                              //       context);
+                              // }
+                              else {
                                 _tabController!
                                     .animateTo((_tabController!.index + 1) % 2);
                                 selectedIndex = _tabController!.index + 1;
