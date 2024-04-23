@@ -2,9 +2,9 @@ import 'package:wave_mall_vendor/data/model/response/language_model.dart';
 import 'package:wave_mall_vendor/utill/images.dart';
 
 class AppConstants {
-  static const String appName = 'Wave Mall Vendor App';
+  static const String appName = 'Dubai Business Vendor';
   static const String appVersion = '14.3';
-  static const String companyName = 'Wave Mall';
+  static const String companyName = 'Dubai Business';
   static const String baseUrl = 'https://wavemall-swifttech.com';
   static const String loginUri = '/api/v3/seller/auth/login';
   static const String configUri = '/api/v1/config';

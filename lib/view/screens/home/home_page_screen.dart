@@ -87,7 +87,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
                 centerTitle: false,
                 automaticallyImplyLeading: false,
                 backgroundColor: Theme.of(context).highlightColor,
-                title: Image.asset(Images.logo, height: 35),
+                title: Image.asset(Images.logoWithAppName, height: 35),
                 actions: [
                   Consumer<ProfileProvider>(
                       builder: (context, profileProvider, _) {
