@@ -1,4 +1,4 @@
-package com.wavemall.seller
+package com.dubaibusiness.seller
 
 import io.flutter.embedding.android.FlutterActivity
 
